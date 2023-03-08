@@ -8,7 +8,11 @@ import { motion } from 'framer-motion';
 import { Dashboard } from '@components/Student/Dashboard/Dashboard';
 
 const Home: NextPage = () => {
-  return <div className="">{/* <Dashboard /> */}</div>;
+  return (
+    <div className="">
+      <Dashboard />
+    </div>
+  );
 };
 
 export default Home;
